@@ -1,4 +1,4 @@
-package com.maxandron.daggerissue325java;
+package com.maxandron.daggerissue325java.bar;
 
 import dagger.Module;
 import dagger.Provides;

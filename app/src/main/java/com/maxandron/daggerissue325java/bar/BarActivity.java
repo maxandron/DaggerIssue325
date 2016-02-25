@@ -1,4 +1,7 @@
-package com.maxandron.daggerissue325java;
+package com.maxandron.daggerissue325java.bar;
+
+import com.maxandron.daggerissue325java.BaseActivity;
+import com.maxandron.daggerissue325java.MyApplication;
 
 import javax.inject.Inject;
 
