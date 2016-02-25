@@ -11,6 +11,6 @@ class BarActivity : BaseActivity() {
     lateinit var mBar: Bar
 
     override fun setupComponent() {
-        MyApplication.get(this).appComponent.plus(BarProvider(this)).inject(this)
+        MyApplication[this].appComponent.plus(BarProvider(this)).inject(this)
     }
 }

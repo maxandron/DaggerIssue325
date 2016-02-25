@@ -17,6 +17,6 @@ class FooActivity : BaseActivity() {
     }
 
     override fun setupComponent() {
-        MyApplication.get(this).appComponent.plus(FooProvider(this)).inject(this)
+        MyApplication[this].appComponent.plus(FooProvider(this)).inject(this)
     }
 }
